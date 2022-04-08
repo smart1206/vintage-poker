@@ -4,7 +4,7 @@
   "description": "A full-stack poker web-app",
   "main": "./server/server.js",
   "scripts": {
-    "start": "concurrently \"npm start --prefix client\" \"node ./server/server\"",
+    "start": "node ./server/server",
     "start:server": "node ./server/server",
     "dev:server": "nodemon ./server/server",
     "start:client": "npm start --prefix client",
